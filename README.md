@@ -1,5 +1,5 @@
 # Fib_numb_cool
- DID YOU KNOW YOU CAN MAKE ANY NATURAL NUMBER USING SOME COMBINATION OF FIBONACCI NUMBERS?!
+ Did you know you can make any natural number by adding some combination of fibonacci numbers?!
  Here is a commmand-line program to find the lowest number of unique fibonacci numebers that sum to any given natural number.
 # Features
  - Large numbers are encouraged (try 2997000102309100000)
