@@ -12,13 +12,14 @@
 using namespace std;
 
 int main() {
-    
-    unsigned long int target = 1892181724129649417; // for fun, try 2997000102309100000 as target;
+     
+    const unsigned long int target = 1892181724129649417; // for fun, try 2997000102309100000 as target;
     unsigned long int start = 0;
     unsigned long int next = 1;
     unsigned long int fib_result = 0;
     vector<long> fib;
    
+    // find all the necessary fibonacci numbers that extend up to the target number and store each one in the vector
     while(fib_result < target) {
         fib_result = start + next;
         start = next;
@@ -41,14 +42,14 @@ int main() {
             left = left - fib[s];
             check_sum = check_sum + fib[s]; // for double checking to make sure the program out put is actually correct
             cout << fib[s] << endl;
-            
-
         }
     }
+    
+    // special case: target = 0 
     if(target == 0) {
         cout << 0 << endl;
     }
-    // DOUBLE CHECK MECHANISM
+    // DOUBLE CHECK MECHANISM (verify the sum of output = target) 
     if(check_sum == target) {
         cout << "****************************" << endl;
         cout << "DOUBLE CHECK MECHANISM: PASS :)" << endl;
