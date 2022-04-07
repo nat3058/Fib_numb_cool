@@ -18,4 +18,4 @@ Unfortunately, it took me like 2+ hours to develep and literally ran in less tha
   - you want to adapt, modify, or extend the functionality of this program to produce something even better
   - you wish to read and review simple,digestible C++ code with an interesting application. 
 
-If you want, you can contact me at nnakkapa ~at~ umich.edu
+If you want, you can contact me: nnakkapa ~at~ umich.edu
